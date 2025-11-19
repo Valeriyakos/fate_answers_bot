@@ -27,16 +27,15 @@
 - `.gitignore` - игнорируемые файлы.
 
 ### Установка
-- Клонирование репозитория
-- Создание виртуального окружения - `python -m venv venv`
-- Активирование виртуального окружения - `venv\Scripts\activate`
-- Установка зависимостей - `pip install -r requirements.txt`
+git clone https://github.com/Valeriyakos/fate_answers_bot
+cd fate_answers_bot
+py -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
 
 ### Запуск
-Из корня проекта выполните:
-```bash
 py bot.py
-```
+
 Бот запустится и начнёт polling. Остановить — `Ctrl+C` в терминале или `Control+C` на маке
 
 ### Примеры использования
