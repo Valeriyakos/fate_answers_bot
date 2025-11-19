@@ -27,14 +27,14 @@
 - `.gitignore` - игнорируемые файлы.
 
 ### Установка
-git clone https://github.com/Valeriyakos/fate_answers_bot
-cd fate_answers_bot
-py -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+- git clone https://github.com/Valeriyakos/fate_answers_bot
+- cd fate_answers_bot
+- py -m venv venv
+- venv\Scripts\activate
+- pip install -r requirements.txt
 
 ### Запуск
-py bot.py
+- py bot.py
 
 Бот запустится и начнёт polling. Остановить — `Ctrl+C` в терминале или `Control+C` на маке
 
